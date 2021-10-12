@@ -153,7 +153,142 @@ nav {
   margin-top: 8px;
   width: 1920px;
   height: 64px;
-  border: 1px solid black;
+}
+
+.nav__tab__clothing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: #EBF2FF;
+  border-radius: 10px;
+  width: 136px;
+  height: 56px;
+}
+
+.nav__tab__entertainment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 8px;
+  width: 116px;
+  height: 56px;
+}
+
+.nav__tab__music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 8px;
+  width: 64px;
+  height: 56px;
+}
+
+.nav__tab__sport {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 8px;
+  width: 130px;
+  height: 56px;
+}
+
+.nav__tab__pets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 8px;
+  width: 56px;
+  height: 56px;
+}
+
+.nav__tab__kitchen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 8px;
+  width: 156px;
+  height: 56px;
+}
+
+.nav__tab__travel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 8px;
+  width: 136px;
+  height: 56px;
+}
+
+.nav__tab__growing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 8px;
+  width: 140px;
+  height: 56px;
+}
+
+.nav__tab__electrical{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 8px;
+  width: 122px;
+  height: 56px;
+}
+
+.nav__tab__mother {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 8px;
+  width: 106px;
+  height: 56px;
+}
+
+.nav__tab__toys {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 8px;
+  width: 165px;
+  height: 56px;
+}
+
+.nav__tab__vintage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 8px;
+  width: 75px;
+  height: 56px;
+}
+
+.nav__tab__icon {
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.nav__link {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #787885;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 main {
@@ -161,7 +296,7 @@ main {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  width: 1920px;
+  width: 100%;
   border: 1px solid black;
 }
 
@@ -184,9 +319,10 @@ aside {
   justify-content: flex-start;
   margin-top: 16px;
   margin-bottom: 60px;
+  box-shadow: 0px 1px 2px rgba(58, 58, 68, 0.24), 0px 2px 4px rgba(90, 91, 106, 0.24);
+  border-radius: 8px;
   width: 1114px;
   height: 1832px;
-  border: 1px solid black;
 }
 
 .main__navigation {
@@ -434,7 +570,7 @@ aside {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin-top: 8px;
   border: solid 1px black;
   width: 227px;
@@ -446,6 +582,11 @@ aside {
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
+}
+
+.card__price__icon {
+  width: 60px;
+  height: 20px;
 }
 
 .card__description__case {
@@ -504,7 +645,7 @@ aside {
 .button__watch {
   font-family: Inter;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 14px;
   line-height: 20px;
   border: none;
