@@ -77,6 +77,10 @@
     </nav>
     <main>
       <aside>
+        <div class="aside__department">
+          <img class='department__icon' src="./img/acide/departmentIcon.png" alt="<logo>">
+          <a class='aside__department__link'>Departments</a>
+        </div>
       </aside>
       <div class='main__content'>
         <div class='main__navigation'>
@@ -96,34 +100,36 @@
             </select>
           </div>
           <div class='main__navigation__buttons'>
-            <div><button>Show all</button></div>
-            <div><button>Auction</button></div>
-            <div><button>Buy now</button></div>
+            <button class='nav__button'>Show all</button>
+            <button class='nav__button'>Auction</button>
+            <button class='nav__button'>Buy now</button>
           </div>
           <div class='main__sort__buttons'>
+            <button class='sort__button'><img class='sort_icon' src="./img/main/sortList01.png" alt="<logo>"></button>
+            <button class='sort__button'><img class='sort_icon' src="./img/main/sortList02.png" alt="<logo>"></button>
           </div>
         </div>
         <div class='main__search__tags'>
           <div class="search__tag__related">
-            <p>Related</p>
+            <p class='search__tag__title'>Related</p>
           </div>
           <div class="search__tag__worldwide">
-            <p>worldwide shipping</p>
+            <p class='search__tag__text'>worldwide shipping</p>
           </div>
           <div class="search__tag__under">
-            <p>under $50</p>
+            <p class='search__tag__text'>under $50</p>
           </div>
           <div class="search__tag__kitten">
-            <p>kitten</p>
+            <p class='search__tag__text'>kitten</p>
           </div>
           <div class="search__tag__plastic">
-            <p>plastic plugs</p>
+            <p class='search__tag__text'>plastic plugs</p>
           </div>
           <div class="search__tag__pucker">
-            <p>pucker shoes</p>
+            <p class='search__tag__text'>pucker shoes</p>
           </div>
           <div class="search__tag__vintage">
-            <p>vintage typewriter</p>
+            <p class='search__tag__text'>vintage typewriter</p>
           </div>
         </div>
         <div class='main__content__cards'>
@@ -422,9 +428,84 @@
       </div>
     </main>
     <footer>
-      <div class='footer__main__information'></div>
-      <div class='footer__contacts'></div>
-      <div class='footer__other__information'></div>
+      <div class='footer__main__information'>
+        <div class="footer__information__left-column">
+          <div class="left-column__title__wrapper">
+            <h1 class="left-column__title">CUSTOMER</h1>
+          </div>
+          <div class="left-column__link__wrapper">
+            <a class="left-column__link">About</a>
+            <a class="left-column__link">Delivery</a>
+            <a class="left-column__link">Guarantee</a>
+            <a class="left-column__link">FAQ</a>
+            <a class="left-column__link">Contacts</a>
+          </div>
+          <div class='left-column__contacts__wrapper'>
+            <div class="left-column__contact__number">
+              <p class='contact__number'>0 800 500 19 10</p>
+              <p class='contact__time'>Free call. 9 AM - 9 PM</p>
+            </div>
+            <div class="left-column__contact__mail">
+              <a class="contact__mail">support@shopka.com</a>
+              <p class="contact__qustion">Any questions 24/7</p>
+            </div>
+            <div class="left-column__contact__networks">
+              <div class='left-column__button__wrapper'>
+                <button class='left-column__button'>Track your order</button>
+              </div>
+              <img class='icon icon__facebook' src="./img/footer/Facebook.png" alt="<logo>">
+              <img class='icon' src="./img/footer/Twitter.png" alt="<logo>">
+            </div>
+          </div>
+        </div>
+        <div class="footer__information__right-column">
+          <div class="right-column__title__wrapper">
+            <h1 class="right-column__title">BUSINESS</h1>
+          </div>
+          <div class="right-column__link__wrapper">
+            <a class="right-column__link">Cooperation</a>
+          </div>
+          <div class='right-column__contacts__wrapper'>
+            <div class="right-column__contact__number">
+              <p class='contact__number'>0 800 777 70 07</p>
+              <p class='contact__time'>Free call. 9 AM - 9 PM</p>
+            </div>
+            <div class="right-column__contact__mail">
+              <a class="contact__mail">for-biz@shopka.com</a>
+              <p class="contact__qustion">business discussion</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='footer__contacts'>
+        <div class='footer__contacts__wrapper'>
+          <div class='contacts__mail__wrapper'>
+            <img class='contacts__icon__message' src="./img/footer/message.png" alt="<logo>">
+            <a class='contact__mail__link'>example@mail.com</a>
+            <div class='contact__subscribe__wrapper'>
+              <button class='contact__subscribe'>Subscribe</button></div>
+            </div>
+          <div class='footer__affiliate__link__wrapper'>
+            <a class='contact__affiliate__link'>Affiliate program</a>
+          </div>
+          <div class='footer__add__link__wrapper'>
+            <a class='contact__add__link'>Add your store</a>
+          </div>
+        </div>
+      </div>
+      <div class='footer__other__information'>
+        <div class='other__information__shopka__wrapper'>
+          <p class='other__information__shopka'>Shopka © 2011  All rights reserved</p>
+        </div>
+        <div class='other__information__icon__wrapper'>
+          <img class='other__information_icon__visa' src="./img/footer/visa.png" alt="<logo>">
+          <img class='other__information_icon__mastercard' src="./img/footer/mastercard.png" alt="<logo>">
+        </div>
+        <div class='other__information__sitemap__wrapper'>
+          <p class='other__information__sitemap'>Sitemap</p>
+          <p class='other__information__privacy'>Privacy policy</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
