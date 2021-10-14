@@ -77,9 +77,197 @@
     </nav>
     <main>
       <aside>
-        <div class="aside__department">
-          <img class='department__icon' src="./img/acide/departmentIcon.png" alt="<logo>">
-          <a class='aside__department__link'>Departments</a>
+        <ul class="aside__departments__list">
+          <button class="department__button">
+            <svg class='department__icon' width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 7H15V5H3V7ZM0 0V2H18V0H0ZM7 12H11V10H7V12Z" fill="#2264D1"/>
+              </svg>
+          Departments
+        </button>
+          <li>
+            <div class="departments__categories">
+              <ul class="departments__all">
+                <div class="all__block">
+                  <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.294956 2.11502L4.87496 6.70502L0.294956 11.295L1.70496 12.705L7.70496 6.70502L1.70496 0.705017L0.294956 2.11502Z" fill="#76A9FF"/>
+                    </svg>                    
+                  <div class="all__title">
+                    <h4 class='all__title__text'>All Categories</h4>
+                    <p>Ecommerce patterns</p>
+                  </div>
+                </div>
+                <li>
+                  <ul>
+                    <div class="electronics__block">
+            
+                      <div class="electronics__title">
+                        <h4>Electronics</h4>
+                      </div>
+                    </div>
+                  </ul>
+                  <li>
+                    <ul class="cell__list">
+                      <div class="cell__block">
+                  
+                        <div class="cell__title">
+                          <h4>Cell Phones & Smartphones</h4>
+                        </div>
+                      </div>
+                      <li>
+                        <h4>Phone Accessories</h4>
+                      </li>
+                      <li>
+                        <h4>Cell Phone Gatgets</h4>
+                      </li>
+                      <li>
+                        <h4>Applications</h4>
+                      </li>
+                      <li>
+                        <h4>Smart Watches</h4>
+                      </li>
+                      <li>
+                        <button class="cell__button">
+                        Show more
+                
+                      </button>
+                      </li>
+                    </ul>
+                    <li>
+                      <div class="business__block">
+                    
+                        <div class="business__title">
+                          <h4>Business & Industrial</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="computers__block">
+                      
+                        <div class="computers__title">
+                          <h4>Computers</h4>
+                          <p>Tablets & Networking</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="home__block">
+                      
+                        <div class="home__title">
+                          <h4>Home & Garden</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collectibles__block">
+                        
+                        <div class="collectibles__title">
+                          <h4>Collectibles</h4>
+                        </div>
+                      </div>
+        
+                    </li>
+                    <li>
+                      <button class="expand__buttom">
+                      Expand
+                    </button>
+                    </li>
+                  </li>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <div class="collapsed__block">
+          <h4>Collapsed filters</h4>
+        
+        </div>
+        <div class="expanded__filter__block">
+          <ul>
+            <div class="expanded__title__block">
+              <h4>Expanded Filters</h4>
+         
+            </div>
+            <li>
+              <div>
+                <input type="checkbox" id="recommended" name="recommended">
+                <label for="recommended">Recommended</label>
+              </div>
+            </li>
+            <li>
+              <div>
+                <input type="checkbox" id="recently" name="recently__added">
+                <label for="recently">Recently Added</label>
+              </div>
+            </li>
+            <li>
+              <div>
+                <input type="checkbox" id="soon" name="soon">
+                <label for="soon">Expiring Soon</label>
+              </div>
+            </li>
+            <li>
+              <div>
+                <input type="checkbox" id="rated" name="rated">
+                <label for="rated">Most Rated</label>
+              </div>
+            </li>
+            <li>
+              <div>
+                <input type="checkbox" id="high" name="high">
+                <label for="high">Price: Low → High</label>
+              </div>
+            </li>
+            <li>
+              <div>
+                <input type="checkbox" id="low" name="low">
+                <label for="low">Price: High → Low</label>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="expanded__filter__block">
+          <ul>
+            <div class="expanded__title__block">
+              <h4>Expanded Filters</h4>
+         
+            </div>
+            <li>
+              <div>
+                <input type="checkbox" id="recommended" name="recommended">
+                <label for="recommended">Recommended</label>
+              </div>
+            </li>
+            <li>
+              <div>
+                <input type="checkbox" id="recently" name="recently__added">
+                <label for="recently">Recently Added</label>
+              </div>
+            </li>
+            <li>
+              <div>
+                <input type="checkbox" id="soon" name="soon">
+                <label for="soon">Expiring Soon</label>
+              </div>
+            </li>
+            <li>
+              <div>
+                <input type="checkbox" id="rated" name="rated">
+                <label for="rated">Most Rated</label>
+              </div>
+            </li>
+            <li>
+              <div>
+                <input type="checkbox" id="high" name="high">
+                <label for="high">Price: Low → High</label>
+              </div>
+            </li>
+            <li>
+              <div>
+                <input type="checkbox" id="low" name="low">
+                <label for="low">Price: High → Low</label>
+              </div>
+            </li>
+          </ul>
         </div>
       </aside>
       <div class='main__content'>
