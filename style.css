@@ -22,7 +22,7 @@
 }
 
 .page-header {
-  width: 1920px;
+  width: 100%;
   margin-bottom: 14px;
 }
 
@@ -170,7 +170,7 @@
 
 
 .nav {
-  width: 1920px;
+  width: 100%;
   margin-bottom: 22px;
 }
 
@@ -228,7 +228,7 @@
 
 /* main */
 .main {
-  width: 1920px;
+  width: 100%;
   align-items: flex-start;
 }
 
@@ -262,15 +262,19 @@
 
 .select__useless { 
   border: none;
-  font-size: 14px;
-  line-height: 143%;
   cursor: pointer;
-  letter-spacing: 0.018em;
-  color: #787885;
   appearance: none;
   padding-right: 23px;
   outline: 0;
   background: url("./img/main/selecterrow.png") no-repeat right center;
+}
+
+.select__active {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.018em;
+  color: #19191D;
 }
 
 .main__select__condition__case {
@@ -535,13 +539,12 @@
 }
 
 .card__watch__button__case {
-  justify-content: center;
+  justify-content: flex-start;
   background: #FFFFFF;
   border: 1px solid #9DC2FF;
   cursor: pointer;
   border-radius: 4px;
-  width: 88px;
-  height: 32px;
+  padding: 4px 12px 4px 12px;
 }
 
 .card__watch_icon {
@@ -608,7 +611,7 @@
 /* footer */
 
 .footer {
-  width: 1920px;
+  width: 100%;
   align-items: flex-start;
   background: #F7F7FA;
   padding-top: 30px;
