@@ -1335,7 +1335,7 @@
 }
 
 .expanded__filter__input+#expanded__filter__label{
-  display: inline-flex;
+  display: block;
   align-items: center;
 }
 
@@ -1400,7 +1400,7 @@
 }
 
 .year__filter__input+#year__filter__label{
-  display: inline-flex;
+  display: block;
   align-items: center;
 }
 
