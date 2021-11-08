@@ -42,6 +42,13 @@
   opacity: 0.8;
 }
 
+.header__avatar {
+  max-width: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  object-fit: scale-down;
+}
+
 .header__link__sell {
   font-weight: 500;
   font-size: 20px;
@@ -209,11 +216,11 @@
   border-radius: 10px;
 }
 
-.list__item:hover {
+.navigation__list__item:hover {
   color: #2979FF;
 }
 
-.list__item:hover .list__path {
+.navigation__list__item:hover .list__path {
   fill: #2979FF;
 }
 
@@ -472,10 +479,17 @@
 }
 
 .card__icon__case {
+  display: flex;
+  justify-self: center;
   overflow: hidden;
   max-width: 227px;
   max-height: 236px;
+  min-width: 227px;
   margin-bottom: 12px;
+}
+
+.card__icon {
+  object-fit: scale-down;
 }
 
 .card__content__case {
@@ -931,6 +945,7 @@
   letter-spacing: 0.0275em;
   color: #1F1F1F;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .affiliate__link:hover {
@@ -948,6 +963,7 @@
   letter-spacing: 0.0275em;
   cursor: pointer;
   color: #1F1F1F;
+  white-space: nowrap;
 }
 
 .add__link:hover {
@@ -955,7 +971,7 @@
 } 
 
 .footer__payment__block {
-  margin-left: 592px;
+  margin-left: 379px;
 }
 
 .shopka__info {
@@ -964,6 +980,7 @@
   color: #B1B1C3;
   margin-right: 301px;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .visa__icon {
@@ -989,6 +1006,7 @@
   line-height: 100%;
   color: #5A5B6A;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 
@@ -1032,11 +1050,6 @@
   list-style: none;
   padding: 0;
 	margin: 0;
-}
-
-.aside__department__list, .department__list__item:hover {
-  cursor: pointer;
-  opacity: 0.8;
 }
 
 .electronics__title__text {
